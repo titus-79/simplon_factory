@@ -1,5 +1,7 @@
-import {Customer} from "./class/customer.js";
-import {ProductId} from "./class/productId.js";
+import { Customer } from "./class/customer.js";
+import { ProductId } from "./class/productId.js";
+import { ClothingSize } from "./class/clothingSize.js";
+import { ShoeSize } from "./class/shoeSize.js";
 
 const message: string = "Hello World!";
 console.log(message);
@@ -12,3 +14,6 @@ class Derived extends ProductId {
 
 const d = new Derived(12, "Nike", 350, 159.99);
 console.log(d.displayDetails());
+
+console.log("ClothingSize : " + ClothingSize.L)
+console.log("ShoeSize : " + ShoeSize.F)
