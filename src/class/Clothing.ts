@@ -1,5 +1,5 @@
-import type { ClothingSize } from "./clothingSize.js";
-import { Product } from "./product.js";
+import type { ClothingSize } from "./ClothingSize.js";
+import { Product } from "./Product.js";
 export class Clothing extends Product {
 
     size: ClothingSize;
