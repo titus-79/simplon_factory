@@ -20,7 +20,7 @@ export class Order {
     }
 
     removeProduct(productId: number){
-        this.productsList.forEach((item , index, array) => {if (item.productId === productId) array.splice(index,1);})
+        return this.productsList = this.productsList.filter((product) => product.productId !== productId );
     }
 
     calculateWeight(): number {

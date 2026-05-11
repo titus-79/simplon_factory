@@ -1,8 +1,8 @@
 export enum ClothingSize {
-    XS = "XS",
-    S = "S",
-    M = "M",
-    L = "L",
-    XL = "XL",
-    XXL = "XXL",
+    SIZE_XS = "XS",
+    SIZE_S = "S",
+    SIZE_M = "M",
+    SIZE_L = "L",
+    SIZE_XL = "XL",
+    SIZE_XXL = "XXL",
 }
